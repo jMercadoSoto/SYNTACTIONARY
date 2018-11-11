@@ -13,6 +13,7 @@ Team mumber:
   
 Description:
 -
+  A simple application is dsigned for second language learners such as English learners to enhance their reading and analysis skills
   
   
 
