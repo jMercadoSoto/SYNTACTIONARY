@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:id="@+id/level_switch"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:text="EASY" />
+
+    <TextView
+        android:id="@+id/set_hard"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/level_switch"
+        android:layout_alignParentEnd="true"
+        android:text="HARD" />
+
+
+    <TextView
+        android:id="@+id/display_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp" />
+
+    <TextView
+        android:id="@+id/answer_table"
+        android:layout_width="346dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/GroupB"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginRight="225dp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="349dp"
+        android:layout_height="34dp"
+        android:text="START THE PRACTICE"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="475dp"
+        android:layout_marginLeft="475dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="10dp"
+        android:text="SUBMIT"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="422dp"
+        android:layout_height="383dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/start"
+        tools:layout_editor_absoluteX="16dp"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/answer_table"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="422dp"
+        android:text="1. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/answer_table"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="422dp"
+        android:text="2. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/answer_table"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="422dp"
+        android:text="3. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/answer_table"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="398dp"
+        android:layout_marginTop="422dp"
+        android:text="4. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/answer_table"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="516dp"
+        android:layout_marginTop="422dp"
+        android:text="5. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/answer_table"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="562dp"
+        android:text="6. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/answer_table"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="564dp"
+        android:text="7. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/answer_table"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="269dp"
+        android:layout_marginTop="563dp"
+        android:text="8. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/answer_table"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="510dp"
+        android:layout_marginTop="562dp"
+        android:text="10. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/answer_table"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="398dp"
+        android:layout_marginTop="561dp"
+        android:text="9. " />
+    <RadioGroup
+
+        android:visibility="invisible"
+        android:id="@+id/GroupA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="277dp"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp">
+
+
+        <RadioButton
+            android:id="@+id/GroupA_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+        <RadioButton
+            android:id="@+id/GroupA_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a" />
+
+        <RadioButton
+            android:id="@+id/GroupA_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/GroupB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="281dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp">
+
+
+        <RadioButton
+            android:id="@+id/GroupB_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a" />
+
+        <RadioButton
+            android:id="@+id/GroupB_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+        <RadioButton
+            android:id="@+id/GroupB_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/GroupC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="258dp"
+        android:layout_marginLeft="258dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="285dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp">
+
+
+        <RadioButton
+            android:id="@+id/GroupC_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a" />
+
+        <RadioButton
+            android:id="@+id/GroupC_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+        <RadioButton
+            android:id="@+id/GroupC_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasav" />
+
+
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/GroupD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="388dp"
+        android:layout_marginLeft="388dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="283dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp">
+
+
+        <RadioButton
+            android:id="@+id/GroupD_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a" />
+
+        <RadioButton
+            android:id="@+id/GroupD_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+        <RadioButton
+            android:id="@+id/GroupD_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasav" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/GroupE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="508dp"
+        android:layout_marginLeft="508dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="282dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp">
+
+
+        <RadioButton
+            android:id="@+id/GroupE_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a" />
+
+        <RadioButton
+            android:id="@+id/GroupE_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+        <RadioButton
+            android:id="@+id/GroupE_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasav" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/GroupF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="140dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp">
+
+
+        <RadioButton
+            android:id="@+id/GroupF_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a" />
+
+        <RadioButton
+            android:id="@+id/GroupF_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+        <RadioButton
+            android:id="@+id/GroupF_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasav" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/GroupG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="143dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp">
+
+
+        <RadioButton
+            android:id="@+id/GroupG_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a" />
+
+        <RadioButton
+            android:id="@+id/GroupG_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+        <RadioButton
+            android:id="@+id/GroupG_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasav" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/GroupH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="259dp"
+        android:layout_marginLeft="259dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="142dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp">
+
+
+        <RadioButton
+            android:id="@+id/GroupH_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a" />
+
+        <RadioButton
+            android:id="@+id/GroupH_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+        <RadioButton
+            android:id="@+id/GroupH_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasav" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/GroupI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="389dp"
+        android:layout_marginLeft="389dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="142dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp">
+
+
+        <RadioButton
+            android:id="@+id/GroupI_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a" />
+
+        <RadioButton
+            android:id="@+id/GroupI_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+        <RadioButton
+            android:id="@+id/GroupI_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasav" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/GroupJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="510dp"
+        android:layout_marginLeft="510dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="144dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp">
+
+
+        <RadioButton
+            android:id="@+id/GroupJ_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a" />
+
+        <RadioButton
+            android:id="@+id/GroupJ_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasasav" />
+
+        <RadioButton
+            android:id="@+id/GroupJ_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vsasav" />
+
+    </RadioGroup>
+</RelativeLayout>
