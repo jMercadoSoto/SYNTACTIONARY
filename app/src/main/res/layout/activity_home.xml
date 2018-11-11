@@ -8,11 +8,11 @@
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="528dp"
+        android:layout_height="383dp"
         android:src="@mipmap/myicon"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="185dp" />
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="106dp" />
 
     <TextView
         android:layout_width="wrap_content"

@@ -1,6 +1,7 @@
 package com.example.jay.myapplication;
 
 import android.content.Intent;
+
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,6 +26,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Random;
+
 
 public class MainActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener{
 
@@ -109,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 
 
 
-    private static int launch_screen_timer = 4000;
+    private static int launch_screen_timer = 40000;
 
     protected void onCreate(Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
