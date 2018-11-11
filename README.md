@@ -28,7 +28,7 @@ Project Demo:
     
    <br>
    <div align=left>Navigation Drawer<br>
-   <div align=center><img width="200" height="300" src="https://github.com/Jayupp/SYNTACTIONARY/blob/master/project%20demo%20material/application%20icon.png"/><br>
+   <div align=center><img width="200" height="300" src="https://github.com/Jayupp/SYNTACTIONARY/blob/master/project%20demo%20material/application%20home.png"/><br>
   
   
 
