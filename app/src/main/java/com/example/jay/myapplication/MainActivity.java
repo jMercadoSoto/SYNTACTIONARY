@@ -1,5 +1,7 @@
 package com.example.jay.myapplication;
 
+import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -105,11 +107,22 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     boolean flag = false;
     ArrayList<String> arr = new ArrayList<>();
 
-    @Override
+
+
+    private static int launch_screen_timer = 4000;
 
     protected void onCreate(Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent homeIntent = new Intent(MainActivity.this, HomeActivity.class);
+                startActivity(homeIntent);
+                finish();
+            }
+        }, launch_screen_timer);
 
         btn = findViewById(R.id.start);
         level_switch = findViewById(R.id.level_switch);
