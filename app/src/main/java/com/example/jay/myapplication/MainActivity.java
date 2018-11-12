@@ -117,6 +117,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -125,7 +126,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
                 finish();
             }
         }, launch_screen_timer);
-
+*/
         btn = findViewById(R.id.start);
         level_switch = findViewById(R.id.level_switch);
         level_switch.setOnCheckedChangeListener(this);
