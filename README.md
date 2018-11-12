@@ -50,7 +50,7 @@ Project Demo:
    <br>
    <div align=left>Application Home Page<br>
    <div align=center><img width="200" height="300" src="https://github.com/Jayupp/SYNTACTIONARY/blob/master/project%20demo%20material/application%20home.png"/><br>
-  
+   <div align=left>
   
 Source:
 -
