@@ -15,7 +15,7 @@ Description:
 -
   A simple application is dsigned for second language learners such as English learners to enhance their reading and analyzing skills. This application has two versions, one based on android mobile phone or tablet and another one based on web.
   
-Tools and knowledge:
+Tools and Knowledge:
 -
   Java, Android Studio for moblie application<br>
   Python, JavaScript, mongoDB, browser for web application<br> 
