@@ -13,7 +13,7 @@ Team mumber:
   
 Description:
 -
-  A simple application is dsigned for second language learners such as English learners to enhance their reading and analysis skills. This application has two versions, one based on mobile and another one based on web.
+  A simple application is dsigned for second language learners such as English learners to enhance their reading and analyzing skills. This application has two versions, one based on android mobile phone or tablet and another one based on web.
   
 Tools and knowledge:
 -
