@@ -32,7 +32,7 @@ Project Processes:
 Project Challenges and General Solutions (Android Version):
 -
 
-  Problem 1: When Python program scrapes the different newspapers, if the news editors use different labels such as div or p, the program will only scrape the specific labels.<br>
+  Problem 1: When Python program scrapes the different news websites, if the news editors use different labels such as div or p, the program will only scrape the specific labels.<br>
   Solution: At this movement, I only deal with BBC news which the specific news website.<br>
   
   Problem 2: How the program saves all the data include the artile text file, hard level and easy level words database, correct answers database, and user input database.<br>
