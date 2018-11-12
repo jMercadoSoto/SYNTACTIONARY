@@ -1,8 +1,8 @@
 # SYNTACTIONARY
 
-Team mumber:
+Team member:
 -
-  Software Engineering Group mumber<br>
+  Software Engineering Group member<br>
   <br>
   Project Manager: Julio Mercado<br>
   Software Developer: Julio Mercado(Web Version)<br>
