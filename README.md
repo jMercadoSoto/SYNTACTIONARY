@@ -33,7 +33,7 @@ Project Challenges and General Solutions (Android Version):
 -
 
   Problem 1: When Python program scrapes the different newspapers, if the news editors use different labels such as div or p, the program will only scrape the specific labels.<br>
-  Solution: At this movement, I only deal with BCC news which the specific news website.<br>
+  Solution: At this movement, I only deal with BBC news which the specific news website.<br>
   
   Problem 2: How the program saves all the data include the artile text file, hard level and easy level words database, correct answers database, and user input database.<br>
   Solution: In the android version software, all the data is stored to local host data base. I am considering to put the data to the cloud database, but I am not go that far. Will considere to make a online database to make the programm more efficient.<br>
@@ -54,9 +54,13 @@ Project Demo:
   
 Source:
 -
-Hard level words are chosen from: https://www.engvid.com/english-resource/common-spelling-mistakes-in-english/
+Hard level words are chosen from: https://www.engvid.com/english-resource/common-spelling-mistakes-in-english/ <br>
 Easy level words are chosen from: https://www.vocabulary.com/lists/191545
 
 
+Development Team4:
+-
+
+All rights reversed by SJSU Computer Engineering Department course with Software Engineering 131 Team4™ 2018
 
 
