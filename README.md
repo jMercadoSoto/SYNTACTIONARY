@@ -1,6 +1,6 @@
 # SYNTACTIONARY
 
-Team member:
+Team Member:
 -
   Software Engineering Group member<br>
   <br>
