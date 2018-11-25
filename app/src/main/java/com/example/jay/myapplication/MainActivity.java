@@ -147,19 +147,8 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                radioGroupA.setVisibility(View.VISIBLE);
-                radioGroupB.setVisibility(View.VISIBLE);
-                radioGroupC.setVisibility(View.VISIBLE);
-                radioGroupD.setVisibility(View.VISIBLE);
-                radioGroupE.setVisibility(View.VISIBLE);
-                radioGroupF.setVisibility(View.VISIBLE);
-                radioGroupG.setVisibility(View.VISIBLE);
-                radioGroupH.setVisibility(View.VISIBLE);
-                radioGroupI.setVisibility(View.VISIBLE);
-                radioGroupJ.setVisibility(View.VISIBLE);
                 level_switch.setVisibility(View.VISIBLE);
                 set_hard.setVisibility(View.VISIBLE);
-                submit_button.setVisibility(View.VISIBLE);
                 String str = fix_text(arr);
                 System.out.println(str);
                 mytext = findViewById(R.id.maintext);
@@ -194,8 +183,8 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         submit_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                int selected_id1 = radioGroupA.getCheckedRadioButtonId();
+                int selected_id1 = 0;
+                selected_id1 = radioGroupA.getCheckedRadioButtonId();
                 r1 = findViewById(selected_id1);
 
 
@@ -425,6 +414,21 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
             radiogroup.get(i).get(first).setText(level_database.get(myrand1));
             radiogroup.get(i).get(second).setText(level_database.get(myrand2));
         }
+        radioGroupA.setVisibility(View.VISIBLE);
+        radioGroupB.setVisibility(View.VISIBLE);
+        radioGroupC.setVisibility(View.VISIBLE);
+        radioGroupD.setVisibility(View.VISIBLE);
+        radioGroupE.setVisibility(View.VISIBLE);
+        radioGroupF.setVisibility(View.VISIBLE);
+        radioGroupG.setVisibility(View.VISIBLE);
+        radioGroupH.setVisibility(View.VISIBLE);
+        radioGroupI.setVisibility(View.VISIBLE);
+        radioGroupJ.setVisibility(View.VISIBLE);
+        level_switch.setVisibility(View.INVISIBLE);
+
+        set_hard.setVisibility(View.INVISIBLE);
+
+        submit_button.setVisibility(View.VISIBLE);
 
     }
 
@@ -981,3 +985,4 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     }
 
 }
+
