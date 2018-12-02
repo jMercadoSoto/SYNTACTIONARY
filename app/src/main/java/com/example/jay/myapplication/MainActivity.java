@@ -153,6 +153,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
                 System.out.println(str);
                 mytext = findViewById(R.id.maintext);
                 mytext.setText(str);
+                init_easy_answer();
 
             }
         });
@@ -354,6 +355,66 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         radiogroup.add(g10);
     }
 
+    void init_easy_answer()
+    {
+        fillGroupButton_array();
+        ArrayList<String> level_database = new ArrayList<>();
+        level_database = easy_dictionaries();
+        int size;
+        //System.out.println(arr.get(1));
+        for(int i = 0; i < 10; i++)
+        {
+            size = level_database.size();
+            Random rand = new Random();
+
+
+
+            int first;
+            int second;
+            int correct_index = rand.nextInt(3);
+            first = rand.nextInt(3);
+            second = first;
+            for(int j = 0; j < 20; j++)
+                if(first == correct_index)
+                    first = rand.nextInt(3);
+                else
+                    first = first;
+            for(int k = 0; k < 20; k++)
+            {
+
+                if(second == first || second == correct_index)
+                    second = rand.nextInt(3);
+                else
+                    second = second;
+            }
+            first = first;
+            second = second;
+
+            int myrand1 = rand.nextInt(level_database.size());
+            int myrand2 = rand.nextInt(level_database.size());
+            for(int h = 0; h < 20; h++)
+            {
+                if(myrand1 == myrand2)
+                    myrand2 = rand.nextInt(level_database.size());
+                else
+                    myrand2 = myrand2;
+            }
+            radiogroup.get(i).get(correct_index).setText(arr.get(i));
+            radiogroup.get(i).get(first).setText(level_database.get(myrand1));
+            radiogroup.get(i).get(second).setText(level_database.get(myrand2));
+        }
+        radioGroupA.setVisibility(View.VISIBLE);
+        radioGroupB.setVisibility(View.VISIBLE);
+        radioGroupC.setVisibility(View.VISIBLE);
+        radioGroupD.setVisibility(View.VISIBLE);
+        radioGroupE.setVisibility(View.VISIBLE);
+        radioGroupF.setVisibility(View.VISIBLE);
+        radioGroupG.setVisibility(View.VISIBLE);
+        radioGroupH.setVisibility(View.VISIBLE);
+        radioGroupI.setVisibility(View.VISIBLE);
+        radioGroupJ.setVisibility(View.VISIBLE);
+
+    }
     public void onCheckedChanged(CompoundButton compoundButton, boolean b)
     {
         fillGroupButton_array();
