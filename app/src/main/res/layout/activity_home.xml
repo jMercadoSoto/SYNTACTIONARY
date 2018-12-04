@@ -12,7 +12,8 @@
         android:layout_height="383dp"
         android:src="@mipmap/myicon"
         tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="106dp" />
+        tools:layout_editor_absoluteY="106dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,7 +21,8 @@
         android:text="WELCOME TO SUE "
         android:textSize="40dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="608dp" />
+        tools:layout_editor_absoluteY="608dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="351dp"
@@ -29,5 +31,6 @@
         android:textColor="@color/colorAccent"
         android:textSize="40dp"
         tools:layout_editor_absoluteX="250dp"
-        tools:layout_editor_absoluteY="669dp" />
+        tools:layout_editor_absoluteY="669dp"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>
